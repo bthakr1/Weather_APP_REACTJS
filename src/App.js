@@ -65,6 +65,7 @@ function App() {
         <div className="weather-general-box">
           <div className="tempMax">Max Temp : {Math.round(weather.main.temp_max)}˚C</div>
           <div className="tempMin">Min Temp : {Math.round(weather.main.temp_min)}˚C</div>
+          <div className="windSpeed">Wind Speed : {weather.wind.speed} Miles / Hour </div>
         </div>
         </div>
         </div>
